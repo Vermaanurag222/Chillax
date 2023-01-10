@@ -1,0 +1,44 @@
+.mfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(14, 15, 53, 0.651), rgba(14, 51, 46, 0.919));
+  color: white;
+  text-align: center;
+}
+
+/* body {
+  margin: 0;
+  background-image: linear-gradient(to right, rgba(14, 15, 53, 0.651) , rgba(14, 51, 46, 0.919));
+  color: white;
+} */
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.playbutton {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+a {
+  background: -webkit-linear-gradient(rgb(194, 113, 113), blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scro {
+  overflow-y: auto;
+  height: 550px;
+}
+
+@media (max-width: 375px) {
+  .musiccard {
+    display: flex;
+    align-items: center;
+    line-height: 1px;
+  }
+}

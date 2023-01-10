@@ -1,0 +1,14 @@
+.light-theme {
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(62, 68, 245, 0.651), rgba(68, 246, 219, 0.919));
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .dark-theme {
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(14, 15, 53, 0.651) , rgba(14, 51, 46, 0.919));
+    color: white;
+    background-repeat: no-repeat;
+  }
